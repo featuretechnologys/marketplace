@@ -867,7 +867,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   margin-bottom: 10px;
 }
 
-.banner-text { display: none; }
+.banner-text { color: var(--eerie-black); }
 
 .banner-btn {
   background: var(--salmon-pink);
