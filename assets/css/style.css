@@ -28,8 +28,8 @@
   --bittersweet: hsl(0, 100%, 70%);
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
-  --cultured: hsl(0, 0%, 93%);
-  --white: hsl(0, 100%, 100%);
+  --cultured: hsl(0, 0%, 100%);
+  --white: hsl(0, 0%, 100%);
   --onyx: hsl(0, 0%, 27%);
 
   /**
@@ -2101,6 +2101,7 @@ footer {
     flex-wrap: wrap;
     row-gap: 50px;
     column-gap: 20px;
+    
   }
 
   .footer-nav-list {

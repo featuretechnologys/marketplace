@@ -21,15 +21,15 @@
    */
 
   --spanish-gray: hsl(0, 0%, 60%);
-  --sonic-silver: hsl(0, 0%, 47%);
+  --sonic-silver: hsl(251, 100%, 50%);
   --eerie-black: hsl(0, 0%, 13%);
-  --salmon-pink: hsl(353, 100%, 78%);
+  --salmon-pink: hsl(0, 100%, 50%);
   --sandy-brown: hsl(29, 90%, 65%);
-  --bittersweet: hsl(0, 100%, 70%);
+  --bittersweet: hsl(0, 100%, 50%);
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
-  --cultured: hsl(0, 0%, 93%);
-  --white: hsl(0, 100%, 100%);
+  --cultured: hsl(0, 0%, 76%);
+  --white: hsl(0, 0%, 100%);
   --onyx: hsl(0, 0%, 27%);
 
   /**
@@ -840,7 +840,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .banner-content {
-  background: hsla(0, 0%, 100%, 0.8);
+  background: hsla(230, 98%, 21%, 0.8);
   position: absolute;
   bottom: 25px;
   left: 25px;
@@ -2068,7 +2068,7 @@ footer {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  color: var(--sonic-silver);
+  color: var(--white);
   font-size: var(--fs-7);
   text-transform: capitalize;
   -webkit-transition: var(--transition-timing);
