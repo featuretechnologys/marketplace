@@ -1402,6 +1402,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
           border-radius: var(--border-radius-md);
   overflow: hidden;
   margin-bottom: 25px;
+  
 }
 
 .cta-banner {
@@ -1409,6 +1410,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  
 }
 
 .cta-content {
@@ -2521,6 +2523,8 @@ footer {
         -ms-flex-align: stretch;
             align-items: stretch;
     gap: 30px;
+    padding-bottom: 20px;
+    
   }
 
   .testimonial-card { margin-bottom: 0; }
@@ -2531,6 +2535,7 @@ footer {
     width: -webkit-calc(50% - 15px);
     width: calc(50% - 15px);
     margin-bottom: 0;
+    
   }
 
   .service { width: 100%; }
@@ -2590,7 +2595,9 @@ footer {
    * #REUSED STYLE 
    */
 
-  .container { max-width: 1200px; }
+  .container { max-width: 1200px;
+                
+ }
 
 
 
@@ -2641,6 +2648,7 @@ footer {
     min-width: calc(25% - 20px);
     width: -webkit-calc(25% - 20px);
     width: calc(25% - 20px);
+    
   }
 
   .cta-container {
@@ -2649,6 +2657,7 @@ footer {
     width: -webkit-calc(50% - 20px);
     width: calc(50% - 20px);
     aspect-ratio: unset;
+    
   }
 
   .service-container {
@@ -2667,6 +2676,7 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row;
     text-align: left;
+    
   }
 
 
